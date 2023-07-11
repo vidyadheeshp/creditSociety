@@ -1,0 +1,305 @@
+
+.menu-btn {
+    background-color: transparent;
+   color: rgb(29, 55, 85);
+   padding: 1px;
+   margin-right: 100px;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: none;
+}
+.drpdown-menu{
+   position: relative;
+   display: inline-block;
+   align-content:right;
+   padding:10px 10px 10px 10px
+
+}
+.menu-content {
+   display: none;
+   position: absolute;
+   text-align: left;
+   padding-right: 10px;
+   background-color: #e0e2e7;
+   min-width:max-content;
+   z-index: 1;
+}
+nav{
+   background-color: rgba(153, 107, 228, 0.445);
+   text-align: right;
+   margin-bottom: 50px;
+}
+.mylinks,.links-hidden{
+   display: inline-block;
+   color: rgb(29, 55, 85);
+   padding: 1px 2px;
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+}
+.links-hidden{
+   display: block;
+   padding-right: 10px;
+   padding-left: 8px;
+}
+
+.links-hidden:hover,.mylinks:hover {
+   background-color: rgba(114, 90, 128, 0.774);
+}
+.drpdown-menu:hover .menu-content {
+   display: block;
+}
+.drpdown-menu:hover .menu-btn {
+   background-color: rgba(114, 90, 128, 0.774);
+}
+.sidenav {
+  list-style: none;
+  height: 100% !important;
+  width: 260px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #97f2;
+  overflow-x: hidden;
+  padding-top: 0px;
+  margin-right:155px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 16px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+
+
+/* Add an active class to the active dropdown button */
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding: 10px 2px 10px 2px;
+
+}
+
+/* Optional: Style the caret down icon */
+
+.top {
+    width:100%;
+    height: 92px;
+}
+.left {
+  margin-top: 49px;
+    float:left;
+    width: 150px;
+    height: 100% !important;
+  position:absolute;
+}
+.main {
+    float:right;
+    width:90%;
+}
+.header{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+    justify-content: center;
+    background-color:#97f2;
+}
+.title{
+      float:inline-end;
+    color:navy;
+    margin-top: 30px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.logo{
+    float:inline-start;
+    width: 100px;
+    height:100px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top:10px;
+
+}
+.estd{
+    margin-top: 60px;
+    padding-left: 4px;
+    vertical-align: text-bottom;
+    font-style: italic;
+    font-family: Candara;
+}
+.myform{
+ 
+  position: relative;
+  z-index: 1;
+  background: #97f2;
+  width:fit-content;
+  
+  margin: 5% 5% 0 5%;
+  padding: 2%;
+  text-align: center; 
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.bg{
+    position: relative;
+  z-index: 1;
+  background: #97f2;
+  max-width:fit-content;
+  margin:5% 5% 0 5%;
+  padding-left: 2%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+}
+.myinput {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  color: rgb(105, 74, 74);
+  width: 100%;
+  border: 0;
+  margin: 10px 10px 10px 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+
+  font-size: 16px;
+}
+
+.mylabel{
+	font-size:16px;
+	font-weight:bold;
+	padding-right: 0px;
+  padding-left: 10px;
+}
+
+.smallinput{
+    padding:10px 15px;
+    background: #aaa0a0; 
+	color:white;
+    border:0 none;
+    cursor:pointer;
+    min-width:20px;
+    max-width: fit-content;
+    margin: 15px 10px 10px 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+}
+.drop{
+    padding:10px 15px;
+    background: #aaa0a0; 
+	color:white;
+    border:0 none;
+    cursor:pointer;
+    min-width: 20px;
+    
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+input[type=submit]{
+  margin: 15px 10px 10px 10px;
+    padding:10px 15px;
+    background: #aaa0a0; 
+    margin-top: 20px;
+	color:white;
+    border:0 none;
+    cursor:pointer;
+    max-width: fit-content;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+}
+.buttn{
+    padding:10px 15px;
+    background: #aaa0a0; 
+	color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:0 none;
+    cursor:pointer;
+    width: 80%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+}
+.mytable, .mytable tbody{
+  width: auto;
+  padding: 3px;
+}
+.mytable tr{
+  border: none;
+  width:100%;
+}
+.mytable td{
+  border:none;
+  width: fit-content;
+  text-align: center;
+  align-content: center;
+  padding: 3px;
+}
+.tbl tr:nth-child(even) {
+  background-color: rgba(175, 137, 236, 0.155);
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.tbl{
+  width: 98%;
+  margin-top: 10px;
+  margin-left: 5px;
+  
+}
+.tbl td{
+  max-width: fit-content;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+
+}
+.tbl th{
+  min-width: fit-content;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+  text-align: center;
+}
+#banktranlist{
+  margin: 5px 5px 0 5px;
+}
+.bankentrieslistbg{
+  position: relative;
+  z-index: 1;
+  background: #97f2;
+  width:86%;
+
+  margin:5% 5% 0 10%;
+  padding-left: 2%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+}
